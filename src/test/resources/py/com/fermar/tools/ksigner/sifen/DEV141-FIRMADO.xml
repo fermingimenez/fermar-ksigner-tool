@@ -1,0 +1,289 @@
+<DE Id="01112233449001001001452822017012515873260989">
+		<dDVId>9</dDVId>
+		<gOpeDE>
+			<iTipEmi>1</iTipEmi>
+			<dDesTipEmi>NORMAL</dDesTipEmi>
+			<dCodSeg>587326098</dCodSeg>
+			<dInfoEmi>Opcional Info</dInfoEmi>
+			<dInfoFisc>Opcional Info KuDE</dInfoFisc>
+		</gOpeDE>
+		<gDTim>
+			<iTiDE>01</iTiDE>
+			<dDesTiDE>Factura Electronica</dDesTiDE>
+			<dNumTim>12000127</dNumTim>
+			<dEst>001</dEst>
+			<dPunExp>001</dPunExp>
+			<dNumDoc>1000001</dNumDoc>
+			<dFeIniT>2018-05-16</dFeIniT>
+			<dFeFinT>2020-06-01</dFeFinT>
+		</gDTim>
+		<gDatGralOpe>
+			<dFeEmiDE>2017-01-25T09:35:17-04:00</dFeEmiDE>
+			<gOpeCom>
+				<iTipTra>1</iTipTra>
+				<dDesTiTran>Venta de Mercaderia</dDesTiTran>
+				<iTImp>1</iTImp>
+				<dDesTImp>IVA</dDesTImp>
+			</gOpeCom>
+			<gEmis>
+				<dRucEm>11223344</dRucEm>
+				<dDVEmi>9</dDVEmi>
+				<iTipCont>2</iTipCont>
+				<cTipReg>1</cTipReg>
+				<dNomEmi>Empresa X</dNomEmi>
+				<dNomFanEmi>Emisor Electronico</dNomFanEmi>
+				<dDirEmi>Gral. Diaz esq 14 de mayo</dDirEmi>
+				<dNumCas>1428</dNumCas>
+				<cCiuEmi>00001</cCiuEmi>
+				<dDesCiuEmi>Asuncion</dDesCiuEmi>
+				<cDisEmi>2</cDisEmi>
+				<dDesDisEmi>Asuncion</dDesDisEmi>
+				<cDepEmi>01</cDepEmi>
+				<dDesDepEmi>CAPITAL</dDesDepEmi>
+				<dTelEmi>0214177507</dTelEmi>
+				<dEmailE>pmaciel@set.gov.py</dEmailE>
+				<dDenSuc>Sucursal1</dDenSuc>
+				<cActEco>A10100</cActEco>
+				<dDesActEco>VTa.al</dDesActEco>
+			</gEmis>
+			<gDatRec>
+				<iNatRec>1</iNatRec>
+				<iTiOpe>1</iTiOpe>
+				<cPaisRec>PRY</cPaisRec>
+				<dDesPaisRe>Paraguay</dDesPaisRe>				
+				<dNomRec>Empresa Y</dNomRec>
+				<dNomFanRec>Receptor Electronico</dNomFanRec>
+				<dTelRec>0214177507</dTelRec>
+				<dEmailRec>receptorE@gmail.com</dEmailRec>
+			</gDatRec>
+		</gDatGralOpe>
+		<gDtipDe>
+			<gCamCond>
+				<iCondOpe>1</iCondOpe>
+				<dDCondOpe>Contado</dDCondOpe>
+				<iTiPago>01</iTiPago>
+				<iTiPago>04</iTiPago>
+				<iTiPago>06</iTiPago>
+				<dDesTiPag>Efectivo</dDesTiPag>
+				<dDesTiPag>Tarjeta de Debito</dDesTiPag>
+				<dDesTiPag>Giros</dDesTiPag>
+				<dMonTiPag>100000</dMonTiPag>
+				<dMonTiPag>50000</dMonTiPag>
+				<dMonTiPag>10000</dMonTiPag>
+				<iMonOpe>PYG</iMonOpe>
+				<iMonOpe>PYG</iMonOpe>
+				<iMonOpe>PYG</iMonOpe>
+				<dDmonOpe>Guarani</dDmonOpe>
+				<dDmonOpe>Guarani</dDmonOpe>
+				<dDmonOpe>Guarani</dDmonOpe>
+				<dTipCam>5894</dTipCam>
+				<dTipCam>5894</dTipCam>
+				<dTipCam>5894</dTipCam>
+			</gCamCond>
+			<gCamItem>
+				<dCodInt>7582400</dCodInt>
+				<dDesProSer>Paquete bombones</dDesProSer>
+				<cUniMed>001</cUniMed>
+				<dDesUniMed>UNIDAD</dDesUniMed>
+				<dCantProSer>10</dCantProSer>
+				<gValorItem>
+					<dPUniProSer>30000</dPUniProSer>
+					<dDescItem>3000</dDescItem>
+					<dPorcDesIt>10</dPorcDesIt>
+					<dTotOpeItem>270000</dTotOpeItem>
+				</gValorItem>
+				<gCamIVA>
+					<iAfecIVA>1</iAfecIVA>
+					<dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+					<dPropIVA>100</dPropIVA>
+					<dTasaIVA>10</dTasaIVA>
+					<dBasGravIVA>245455</dBasGravIVA>
+					<dLiqIVAItem>24545</dLiqIVAItem>
+				</gCamIVA>
+				<gCamEsp>
+					<gRasMerc>
+						<dNumLote>1</dNumLote> 
+						<dVencMerc>2018-06-01</dVencMerc> 
+						<dNSerie>0</dNSerie> 
+					</gRasMerc>
+					<gGrupAdi>
+						 <dCiclo>ABC123</dCiclo> 
+						 <dPerDesde>2018-06-01</dPerDesde> 
+						 <dPerHasta>2018-06-01</dPerHasta> 
+						 <dVencPag>2018-06-01</dVencPag> 
+						 <dContrato>1c</dContrato> 
+					</gGrupAdi>
+				</gCamEsp>
+			</gCamItem>
+			<gCamItem>
+				<dCodInt>1252125</dCodInt>
+				<dDesProSer>Desodorante Aerosol NNNN Primavera</dDesProSer>
+				<cUniMed>001</cUniMed>
+				<dDesUniMed>UNIDAD</dDesUniMed>
+				<dCantProSer>2</dCantProSer>
+				<dIintItem>Fragancia Primavera</dIintItem>
+				<gValorItem>
+					<dPUniProSer>15000</dPUniProSer>
+					<dDescItem>0</dDescItem>
+					<dPorcDesIt>0</dPorcDesIt>
+					<dTotOpeItem>30000</dTotOpeItem>
+				</gValorItem>
+				<gCamIVA>
+					<iAfecIVA>1</iAfecIVA>
+					<dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+					<dPropIVA>10</dPropIVA>
+					<dTasaIVA>10</dTasaIVA>
+					<dBasGravIVA>27273.00</dBasGravIVA>
+					<dLiqIVAItem>2727.00</dLiqIVAItem>
+				</gCamIVA>
+			</gCamItem>
+			<gCamTrans> 
+				<iTipTrans>2</iTipTrans> 
+				<dDesTipTrans>Tercero</dDesTipTrans> 
+				<iModTrans>1</iModTrans> 
+				<dDesModTrans>Aereo</dDesModTrans> 
+				<iRespFlete>1</iRespFlete> 
+				<cCondNeg>CFR</cCondNeg> 
+				<dNuManif>M1</dNuManif> 
+				<dNuDespImp>D1</dNuDespImp> 
+				<dIniTras>2018-05-01</dIniTras> 
+				<dFinTras>2018-05-01</dFinTras> 
+				<cPaisDest>MAR</cPaisDest> 
+				<dDesPaisDest>MARRUECO</dDesPaisDest> 
+			 	<gCamSal> 
+					<dDirLocSal>A</dDirLocSal> 
+					<dNumCasSal>1</dNumCasSal> 
+					<dComp1Sal>A</dComp1Sal> 
+					<dComp2Sal>A</dComp2Sal> 
+					<cCiuSal>1</cCiuSal> 
+					<dDesCiuSal>DES</dDesCiuSal> 
+					<cDepSal>1</cDepSal> 
+					<dDesDepSal>CAPITAL</dDesDepSal> 
+					<dTelSal>0123456</dTelSal> 
+				</gCamSal>
+			</gCamTrans>
+		</gDtipDe>
+		<gTotSub>
+			<dSubVta5>0.00</dSubVta5>
+			<dSubVta10>300000</dSubVta10>
+			<dTotVtasDesc>330000.00</dTotVtasDesc>
+			<dTotDesc>30000</dTotDesc>
+			<dPorcDescTotal>10</dPorcDescTotal>
+			<dDescTotal>33000</dDescTotal>
+			<dAnticipo>0</dAnticipo>
+			<dRecargo>0</dRecargo>
+			<dCRed>00</dCRed>
+			<dTotOpe>300000.00</dTotOpe>
+			<dIVA10>27272.00</dIVA10>
+			<dTotIVA>27272</dTotIVA>
+			<dBaseGrav10>272728</dBaseGrav10>
+			<dTBasGraIVA>272728</dTBasGraIVA>
+			<dBaseGravISC>100</dBaseGravISC>
+			<dTotalGs>300000.00</dTotalGs>
+		</gTotSub>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#01112233449001001001452822017012515873260989">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>1jx2+smcb8GJtqot+1S32YA5qTPNyJo+ZfNhumpwptk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+GyK7zQ5IrGYmQ2pwjuWl10B2ew6djycwTyLa0lXarRzoeVZP5/aFQwM2modz5WSmXM7nNrULi48l
+kRIG4i9cnQi/e5bZlydY6ujFMrWZe3OwwIjt5yt9I0N1ub5aaMBKOfvSH7rsQJmepT5pwtOqIVbj
+79ydnDwtJTWGseYBnTbNnYIv35VV1J/jd/yPnaGTy/IlBfbMGqi9Jdr7RjsnIfxP4L85zexegJj4
+7vN46HX1wgivqGcY3jCAacLB5J3rbw445Y103oCEuOW53OA1dpQT+ICBw6fCS20pXQOhpnvWrWFA
+mAhMyiCRUnFBRoXR6VeacFMHJYBo5zwZMVgO/w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+n9jJsjtpx0npdeZXbN21blMYj08ZAPoJyGtqS/PPvBGzIT65BiFiHJtc4hqIhNrXpCaBNO/m+wz5
+Dd+Rs/Um/l1PnVnMLxOwTqyrEgRVeiX3aimELlLSDL52DB8u0ARl4uS2Upzd11ObGPX/TVGSCVgu
+REgkkO23GfgyZGuonCdCp+r4LjkqFjkjTsT1Rg3YKUA3shieCE7ZCsjEf9EtGprqb5a9wkhG+C/R
+qrPxszlXb5wYNMC1pY7j8XU8RXZEjsmKFqCwCnSeyjX8w3xn3yT0Kh8vTrP7tUsj/KU4kztqPXwW
+78YLdhamU370sPQWNRS90SLvpQ8o/yUUV1J/4w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIODCCBiCgAwIBAgIII/wtMsyjc/MwDQYJKoZIhvcNAQELBQAwZTEfMB0GA1UEAwwWQ0EtRE9D
+VU1FTlRBIFMuQS4gVGVzdDEcMBoGA1UECgwTRE9DVU1FTlRBIFMuQS4gVGVzdDEXMBUGA1UEBRMO
+UlVDIDgwMDUwMTcyLTExCzAJBgNVBAYTAlBZMB4XDTE4MDcyNDE2MzgxNFoXDTE5MDcyNDE2NDgx
+NFowaTELMAkGA1UEBhMCUFkxFTATBgNVBAUTDFJVQzExMTExMTEtODEZMBcGA1UECgwQUEVSU09O
+QSBKVVJJRElDQTERMA8GA1UECwwIRklSTUEgRjExFTATBgNVBAMMDEtPTkVDVEEgUy5BLjCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ/YybI7acdJ6XXmV2zdtW5TGI9PGQD6Cchrakvz
+z7wRsyE+uQYhYhybXOIaiITa16QmgTTv5vsM+Q3fkbP1Jv5dT51ZzC8TsE6sqxIEVXol92ophC5S
+0gy+dgwfLtAEZeLktlKc3ddTmxj1/01RkglYLkRIJJDttxn4MmRrqJwnQqfq+C45KhY5I07E9UYN
+2ClAN7IYnghO2QrIxH/RLRqa6m+WvcJIRvgv0aqz8bM5V2+cGDTAtaWO4/F1PEV2RI7JihagsAp0
+nso1/MN8Z98k9CofL06z+7VLI/ylOJM7aj18Fu/GC3YWplN+9LD0FjUUvdEi76UPKP8lFFdSf+MC
+AwEAAaOCA+YwggPiMAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgXgMCoGA1UdJQEB/wQgMB4G
+CCsGAQUFBwMBBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYDVR0OBBYEFNkBiKO8HXt+jkWQwZX5q5mw
+J5unMIGhBggrBgEFBQcBAQSBlDCBkTA/BggrBgEFBQcwAYYzaHR0cHM6Ly93d3cuZG9jdW1lbnRh
+LmNvbS5weS9maXJtYWRpZ2l0YWwvdGVzdC9vc2NwME4GCCsGAQUFBzAChkJodHRwczovL3d3dy5k
+b2N1bWVudGEuY29tLnB5L2Zpcm1hZGlnaXRhbC90ZXN0L2Rlc2Nhcmdhcy9jYWRvYy5jcnQwHwYD
+VR0jBBgwFoAU/4I3gcaXmw74ZyXPaEzy3eNh7tgwVAYDVR0fBE0wSzBJoEegRYZDaHR0cHM6Ly93
+d3cuZG9jdW1lbnRhLmNvbS5weS9maXJtYWRpZ2l0YWwvdGVzdC9kZXNjYXJnYXMvY3JsZG9jLmNy
+bDB5BgNVHREEcjBwgSNsdWlzZ2lsYmVydG8uc2FsaW5hc0Brb25lY3RhLmNvbS5weaRJMEcxEDAO
+BgNVBAwMB0dFUkVOVEUxHjAcBgNVBAMMFUxVSVMgR0lMQkVSVE8gU0FMSU5BUzETMBEGA1UEBRMK
+Q0kxMTIyMzM0NDCCAd8GA1UdIASCAdYwggHSMIIBzgYOKwYBBAGC+TsBAQEFAgEwggG6MD8GCCsG
+AQUFBwIBFjNodHRwczovL3d3dy5kb2N1bWVudGEuY29tLnB5L2Zpcm1hZGlnaXRhbC9kZXNjYXJn
+YXMwgcIGCCsGAQUFBwICMIG1GoGyRXN0ZSBlcyB1biBjZXJ0aWZpY2FkbyBkZSBwZXJzb25hIGp1
+cu1kaWNhIGN1eWEgY2xhdmUgcHJpdmFkYSBlc3ThIGNvbnRlbmlkYSBlbiB1biBt82R1bG8gZGUg
+c29mdHdhcmUgc2VndXJvIHkgc3UgZmluYWxpZGFkIGVzIGF1dGVudGljYXIgYSBzdSB0aXR1bGFy
+IG8gZ2VuZXJhciBmaXJtYXMgZGlnaXRhbGVzLjCBsQYIKwYBBQUHAgIwgaQagaFUaGlzIGlzIGFu
+IGVuZCB1c2VyIGNlcnRpZmljYXRlIHdob3NlIHByaXZhdGUga2V5IGlzIGVtYmVkZGVkIHdpdGhp
+biBhIHNlY3VyZSBzb2Z0d2FyZSBtb2R1bGUgdGhhdCBhaW1zIHRvIGF1dGhlbnRpY2F0ZSBpdHMg
+b3duZXIgb3IgZ2VuZXJhdGUgZGlnaXRhbCBzaWduYXR1cmVzLjANBgkqhkiG9w0BAQsFAAOCAgEA
+UehiMIC8u7Nbhq0k+ujcnD6TTzDMhOmZ6IeBJqjqAD2nFMjEBoOAtahRtFp4aTIE1NquthDdqp3/
+8uiCPlscijU/47xY88GKzXAWBZtBrYCiIZa8U+bS0v3DVViawRwa8sG0bRycCfdC2rMMNpib107s
+0rAeOpjCISJ2AWEWl3QhA1BpJVL26fYbr46EBVIHZ+w6u4wTGD2AnXj8o/lEs8HIYJaqQnQjUWPV
+Yp7OSPTPlfJOvr7+Y3dPDID5BA3sdrbWSvkkO6chh4IWxYr23Oi3tI0N5YhSOiFmmjm8D6JO2x5c
+AYMAm7MjtAFLsNdP91joaXKtccUKCQj5eIyobv+Jx5vQArYEYGUgkGFG6NEtDG7MlJgPXCLurPQ7
+ff9ROxqhxAlN3nxZYVz+5t/6XDGQwpf4Y1Atyy9BK70atBDpnaV7kKJlskmNFc46emu+W6nRpO2E
+O2FSlzCm/6/EGLJTc1jHpTlQTPlM1gHGI6AYYpMEyKrABIyf3+92vKDRdH2qS4U41sAxqPfi0aL5
+ZwU/qZ1QkKQ/OX+WMF0UKio4i7wtRQObNz7KB1CrOCwbpcMfTGGtDM8mXg6hlOW14/EjEczGeGwe
+jsaSVs+IqZC5IKW6miyKjdeM6CVkVwq2Ikzhlh4maVansY2JL1p3sAdqN1qdp5osB/c6LW2k1YM=
+</ds:X509Certificate>
+<ds:X509Certificate>
+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
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></DE>

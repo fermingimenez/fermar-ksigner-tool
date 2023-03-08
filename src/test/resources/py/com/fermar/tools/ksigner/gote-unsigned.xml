@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gote>
+	<idSofiaOrden>BQ030121/2016</idSofiaOrden>
+	<fechaLiquidacion>20160621</fechaLiquidacion>
+	<cuentaDebito>147000365</cuentaDebito>
+	<tipoDocEmisor>RUC</tipoDocEmisor>
+	<numDocEmisor>800015</numDocEmisor>
+	<cuentaCredito>
+		<item>
+			<idItem>1</idItem>
+			<idCuentaCredito>430</idCuentaCredito>
+			<nombreBenef>Banco Central del Paraguay</nombreBenef>
+			<tipoDocBenef>RUC</tipoDocBenef>
+			<numDocBenef>80044332-3</numDocBenef>
+			<impTrans>295152878.000</impTrans>
+			<concepto>Transferencia a BCP</concepto>
+			<bancoRecp>1001</bancoRecp>
+		</item>
+		<item>
+			<idItem>2</idItem>
+			<idCuentaCredito>3789684000</idCuentaCredito>
+			<nombreBenef>CENTRO DESPACHANTES DE ADUANA DEL</nombreBenef>
+			<tipoDocBenef>RUC</tipoDocBenef>
+			<numDocBenef>60023332-5</numDocBenef>
+			<impTrans>63429.000</impTrans>
+			<concepto>Transferencia a CDA</concepto>
+			<bancoRecp>1020</bancoRecp>
+		</item>
+	</cuentaCredito>
+</gote>

@@ -1,0 +1,13 @@
+<rGesEve xmlns="http://ekuatia.set.gov.py/sifen/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ekuatia.set.gov.py/sifen/xsd RecEventoCanc_v141.xsd" >
+	<rEve Id="1234567890">
+		<dFecFirma>2018-11-05T11:00:00</dFecFirma>
+		<dVerFor>141</dVerFor>
+		<dTiGDE>01</dTiGDE>
+		<gGroupTiEvt>
+			<rGeVeCan>
+				<Id>05800044649001001002234622018103115873260988</Id>
+				<mOtEve>prueba de programador</mOtEve>
+			</rGeVeCan>
+		</gGroupTiEvt>
+	</rEve>
+</rGesEve>

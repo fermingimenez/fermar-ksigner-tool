@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gote>
+	<idSofiaOrden>BQ030121/2016</idSofiaOrden>
+	<fechaLiquidacion>20160621</fechaLiquidacion>
+	<cuentaDebito>147000365</cuentaDebito>
+	<tipoDocEmisor>RUC</tipoDocEmisor>
+	<numDocEmisor>800015</numDocEmisor>
+	<cuentaCredito>
+		<item>
+			<idItem>1</idItem>
+			<idCuentaCredito>430</idCuentaCredito>
+			<nombreBenef>Banco Central del Paraguay</nombreBenef>
+			<tipoDocBenef>RUC</tipoDocBenef>
+			<numDocBenef>80044332-3</numDocBenef>
+			<impTrans>295152878.000</impTrans>
+			<concepto>Transferencia a BCP</concepto>
+			<bancoRecp>1001</bancoRecp>
+		</item>
+		<item>
+			<idItem>2</idItem>
+			<idCuentaCredito>3789684000</idCuentaCredito>
+			<nombreBenef>CENTRO DESPACHANTES DE ADUANA DEL</nombreBenef>
+			<tipoDocBenef>RUC</tipoDocBenef>
+			<numDocBenef>60023332-5</numDocBenef>
+			<impTrans>63429.000</impTrans>
+			<concepto>Transferencia a CDA</concepto>
+			<bancoRecp>1020</bancoRecp>
+		</item>
+	</cuentaCredito>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://xxx/REC-xml-c14n-20010315" />
+			<ds:SignatureMethod Algorithm="http://xxx/xmldsig#dsa-sha1" />
+			<ds:Reference URI="">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://xxx/xmldsig#enveloped-signature" />
+					<ds:Transform Algorithm="http://xxx/REC-xml-c14n-20010315" />
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://xxx/xmldsig#sha1" />
+				<ds:DigestValue>5mfi7ac9VeIzSZoOONqNMCaWt8k=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>YeL8n8vssSd…ICaJ22GDAGA==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:KeyValue>
+				<ds:DSAKeyValue>
+					<ds:P>X9T…Acc=</ds:P>
+					<ds:Q>l2BQjxU…C/BYHPU=</ds:Q>
+					<ds:G>9+…PSSo=</ds:G>
+					<ds:Y>KjHl…9Q=</ds:Y>
+				</ds:DSAKeyValue>
+			</ds:KeyValue>
+			<ds:X509Data>
+				<ds:X509Certificate>MIIEHgAwIBAg…YHEHYW</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</ds:Signature>
+</gote>

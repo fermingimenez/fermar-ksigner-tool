@@ -1,0 +1,12 @@
+<rGesEve xmlns="http://ekuatia.set.gov.py/sifen/xsd">
+	<rEve Id="302">
+		<dFecFirma>2018-11-20T11:55:51</dFecFirma>
+		<dVerFor>141</dVerFor>
+		<gGroupTiEvt>
+			<rGeVeCan>
+				<Id>01800025776001001910001522018111617280012007</Id>
+				<mOtEve>Teste cancelamento</mOtEve>
+			</rGeVeCan>
+		</gGroupTiEvt>
+	</rEve>
+</rGesEve>

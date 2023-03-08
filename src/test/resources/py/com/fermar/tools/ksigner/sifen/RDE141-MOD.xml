@@ -1,0 +1,430 @@
+<rDE xmlns="http://ekuatia.set.gov.py/sifen/xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://ekuatia.set.gov.py/sifen/xsd siRecepDE_v141.xsd">
+	<dVerFor>141</dVerFor>
+	<DE Id="01112233444001001001452822017012515873260987">
+		<!-- Campos inherentes a la operacion de DE -->
+		<dDVId>7</dDVId>
+		<dFecFirma>2017-01-25T09:35:17</dFecFirma>
+		<gOpeDE>
+			<iTipEmi>1</iTipEmi>
+			<dDesTipEmi>Normal</dDesTipEmi>
+			<dCodSeg>587326098</dCodSeg>
+			<dInfoEmi>Opcional Info</dInfoEmi>
+			<dInfoFisc>Opcional Info KuDE</dInfoFisc>
+		</gOpeDE>
+		<!-- Campos de datos del timbrado -->
+		<gTimb>
+			<iTiDE>01</iTiDE>
+			<dDesTiDE>Factura electrónica</dDesTiDE>
+			<dNumTim>12000127</dNumTim>
+			<dEst>001</dEst>
+			<dPunExp>001</dPunExp>
+			<dNumDoc>1000000</dNumDoc>
+			<dFeIniT>2018-05-16</dFeIniT>
+			<dFeFinT>2020-06-01</dFeFinT>
+		</gTimb>
+		<!-- Datos generales de la operacion comercial -->
+		<gDatGralOpe>
+			<dFeEmiDE>2017-01-25T09:35:17</dFeEmiDE>
+			<gOpeCom>
+				<iTipTra>2</iTipTra>
+				<dDesTipTra>Prestación de servicios</dDesTipTra>
+				<iTImp>1</iTImp>
+				<dDesTImp>IVA</dDesTImp>
+				<cMoneOpe>AED</cMoneOpe>
+				<dDesMoneOpe>Dirham</dDesMoneOpe>
+				<dCondTiCam>1</dCondTiCam>
+				<dTiCam>1</dTiCam>
+			</gOpeCom>
+			<!-- Datos que identifican al emisor del DE -->
+			<gEmis>
+				<dRucEm>11223344</dRucEm>
+				<dDVEmi>9</dDVEmi>
+				<iTipCont>1</iTipCont>
+				<cTipReg>1</cTipReg> <!-- Opcional TABLA 1 – TIPO DE REGIMEN -->
+				<dNomEmi>Empresa X</dNomEmi>
+				<dNomFanEmi>Emisor Electronico</dNomFanEmi>
+				<dDirEmi>Gral. Diaz esq 14 de mayo</dDirEmi>
+				<dNumCas>0</dNumCas>
+				<!--<dCompDir1></dCompDir1> -->
+				<!--<dCompDir2></dCompDir2> -->
+				<cDepEmi>3</cDepEmi>
+				<dDesDepEmi>SAN PEDRO</dDesDepEmi>
+				<cDisEmi>11</cDisEmi>
+				<dDesDisEmi>ANTEQUERA</dDesDisEmi>
+				<cCiuEmi>00176</cCiuEmi>
+				<dDesCiuEmi>PINOZA</dDesCiuEmi>
+				<dTelEmi>0214177507</dTelEmi>
+				<dEmailE>pmaciel@set.gov.py</dEmailE>
+				<dDenSuc>Sucursal1</dDenSuc>
+				<cActEco>A10100</cActEco>
+				<dDesActEco>VTa.al</dDesActEco>
+			</gEmis>
+			<!-- Datos que identifican al receptor del DE -->
+			<gDatRec>
+				<iNatRec>1</iNatRec>
+				<iTiOpe>1</iTiOpe>
+				<cPaisRec>PRY</cPaisRec>
+				<dDesPaisRe>Paraguay</dDesPaisRe>
+				<iTiContRec>2</iTiContRec>
+				<dRucRec>88899990</dRucRec>
+				<dDVRec>4</dDVRec>
+				<iTipIDRec>1</iTipIDRec>
+				<dDTipIDRec>Carnet de residencia</dDTipIDRec>
+				<dNumIDRec>0</dNumIDRec>
+				<dNomRec>Empresa Y</dNomRec>
+				<dNomFanRec>Receptor Electronico</dNomFanRec>
+				<!--<dDirRec></dDirRec> -->
+				<dTelRec>0214177507</dTelRec>
+				<!--<dCelRec></dCelRec> -->
+				<dEmailRec>receptorE@gmail.com</dEmailRec>
+				<!--<dCodCliente></dCodCliente> -->
+			</gDatRec>
+		</gDatGralOpe>
+		<!-- Datos especificos por tipo de DE -->
+		<gDtipDE>
+			<!-- Campos que componen la FE -->
+			<gCamFE>
+				<iIndPres>1</iIndPres>
+				<dDesIndPres>Operación presencial</dDesIndPres>
+				<!-- Campos que describen la compras publicas -->
+				<gCompPub>
+					<dModCont>re</dModCont>
+					<dEntCont>12345</dEntCont>
+					<dAnoCont>12</dAnoCont>
+					<dSecCont>1234567</dSecCont>
+					<dFeCodCont>2018-10-02</dFeCodCont>
+				</gCompPub>
+			</gCamFE>
+			<!-- Campos que componen la FE de Exportacion -->
+			<!--<gCamFEE> <iFleExp></iFleExp> <dDesFleExp></dDesFleExp> <dPuEmb></dPuEmb> 
+				</gCamFEE> -->
+			<!-- Campos que componen la FE de Importacion -->
+			<!--<gCamFEI> <cTipReg></cTipReg> <dPuLleg></dPuLleg> <dNuDesp></dNuDesp> 
+				<dFecDesp></dFecDesp> <dNomDesp></dNomDesp> <dRucDesp></dRucDesp> <dDVDesp></dDVDesp> 
+				<dPaisProd></dPaisProd> <dDesPaisProd></dDesPaisProd> <dNomVen></dNomVen> 
+				<dValorInv></dValorInv> <dValorImpGs></dValorImpGs> <dDerAdu></dDerAdu> <dIndi></dIndi> 
+				<dSerValor></dSerValor> <dIVAImp></dIVAImp> <dTasaIntAd></dTasaIntAd> </gCamFEI> -->
+			<!-- Campos que componen la Autofactura Electronica AE -->
+			<gCamAE>
+				<iTipCons>1</iTipCons>
+				<dDesTipCons>asdfqwerasdfqwerasdfqwerasdfqwer</dDesTipCons>
+				<dNumCons>11111111111</dNumCons>
+				<dNumControl>88888888</dNumControl>
+				<iTipIDVen>1</iTipIDVen>
+				<dDTipIDVen>Cédula paraguaya</dDTipIDVen>
+				<dNumIDVen>2</dNumIDVen>
+				<dNomVen>Ramiro</dNomVen>
+				<dDirVen>Mcal López</dDirVen>
+				<dNumCasVen>0</dNumCasVen>
+				<cDepVen>1</cDepVen>
+				<dDesDepVen>CAPITAL</dDesDepVen>
+				<cDisVen>3</cDisVen>
+				<dDesDisVen>bla</dDesDisVen>
+				<cCiuVen>1</cCiuVen>
+				<dDesCiuVen>descripción de ciudad</dDesCiuVen>
+				<dDirProv>adf</dDirProv>
+				<cDepProv>01</cDepProv>
+				<dDesDepProv>CAPITAL</dDesDepProv>
+				<cDisProv>1</cDisProv>
+				<dDesDisProv>ASUNCION</dDesDisProv>
+				<cCiuProv>1</cCiuProv>
+				<dDesCiuProv>Asunción</dDesCiuProv>
+			</gCamAE>
+			<!-- Campos que componen la Nota de Credito/Debito -->
+			<!--<gCamNCDE> <iMotEmi></iMotEmi> <dDesMotEmi></dDesMotEmi> </gCamNCDE> -->
+			<!-- Campos que componen la Nota de Remision Electronica -->
+			<!-- <gCamNRE> <iMotEmiNR></iMotEmiNR> <dDesMotEmiNR></dDesMotEmiNR> <iRespEmiNR></iRespEmiNR> 
+				<dKmR></dKmR> </gCamNRE> -->
+			<!-- Campos que describen la condicion de la operacion, forma de pago 
+				y moneda Obligatorio si C002 = 1 o 2, Opcional sino -->
+			<gCamCond>
+				<iCondOpe>1</iCondOpe>
+				<dDCondOpe>Contado</dDCondOpe>
+				<gPaConEIni>
+					<iTiPago>1</iTiPago>
+					<dDesTiPag>Efectivo</dDesTiPag>
+					<dMonTiPag>100000</dMonTiPag>
+					<cMoneTiPag>PYG</cMoneTiPag>
+					<dDMoneTiPag>Guarani</dDMoneTiPag>
+					<dTiCamTiPag>5894</dTiCamTiPag>
+					<!-- Campos que describen el pago de la operacion con tarjeta de credito/débito -->
+					<!--<gPagTarCD> <iDenTarj></iDenTarj> <dDesDenTarj></dDesDenTarj> <dRUCProTar></dRUCProTar> 
+						<dDVProTar></dDVProTar> <iForProPa></iForProPa> <dNunAuOpe></dNunAuOpe> <dNomTit></dNomTit> 
+						<dNumTarj></dNumTarj> </gPagTarCD> <gPagTarCD> <iDenTarj></iDenTarj> <dDesDenTarj></dDesDenTarj> 
+						<dRUCProTar></dRUCProTar> <dDVProTar></dDVProTar> <iForProPa></iForProPa> 
+						<dNunAuOpe></dNunAuOpe> <dNomTit></dNomTit> <dNumTarj></dNumTarj> </gPagTarCD> -->
+					<!-- Campos que describen el pago de la operacion con cheque -->
+					<!--<gPagCheq> <dNumCheq></dNumCheq> <dBcoEmi></dBcoEmi> </gPagCheq> 
+						<gPagCheq> <dNumCheq></dNumCheq> <dBcoEmi></dBcoEmi> </gPagCheq> -->
+				</gPaConEIni>
+				<!-- Campos que describen la forma de pago a crédito -->
+				<!--<gPagCred> <dCondCred></dCondCred> <dPlazoCre></dPlazoCre> <dCuotas></dCuotas> 
+					<dMonEnt></dMonEnt> <iMonCred></iMonCred> <dDMonCred></dDMonCred> <dTipCamCred></dTipCamCred> -->
+				<!-- Campos que describen las cuotas -->
+				<!-- <gCuotas> <dMonCuota></dMonCuota> <dVencCuo></dVencCuo> </gCuotas> 
+					</gPagCred> -->
+			</gCamCond>
+			<!-- Campos que describen los items de la operacion -->
+			<gCamItem>
+				<dCodInt>7582400</dCodInt>
+				<!--<dParAranc></dParAranc> -->
+				<!--<dNCM></dNCM> -->
+				<!--<dDncpG></dDncpG> -->
+				<!--<dDncpE></dDncpE> -->
+				<!--<dGtin></dGtin> -->
+				<!--<dGtinPq></dGtinPq> -->
+				<dDesProSer>Paquete bombones</dDesProSer>
+				<cUniMed>001</cUniMed>
+				<dDesUniMed>UNIDAD</dDesUniMed>
+				<dCantProSer>10</dCantProSer>
+				<cPaisOrig>MAR</cPaisOrig>
+				<dDesPaisOrig>MARRUECO</dDesPaisOrig>
+				<!--<dInfItem></dInfItem> -->
+				<!-- Campos que desriben los precios, descuentos y valor total por item -->
+				<gValorItem>
+					<dPUniProSer>30000</dPUniProSer>
+					<dDescItem>3000</dDescItem>
+					<dPorcDesIt>10</dPorcDesIt>
+					<dTotOpeItem>270000</dTotOpeItem>
+				</gValorItem>
+				<!-- Campos que desriben el IVA de la operacion -->
+				<gCamIVA>
+					<iAfecIVA>1</iAfecIVA>
+					<dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+					<dPropIVA>100</dPropIVA>
+					<dTasaIVA>10</dTasaIVA>
+					<dBasGravIVA>245455</dBasGravIVA>
+					<dLiqIVAItem>24545</dLiqIVAItem>
+				</gCamIVA>
+				<!-- Campos que desriben el ISC de la operacion -->
+				<gCamISC>
+					<cCatISC>1</cCatISC>
+					<dDesCatISC>SECCION I-(Cigarrillos,Tabacos,Esencias y Otros
+						derivados del Tabaco)</dDesCatISC>
+					<cTasaISC>1</cTasaISC>
+					<dBaseGravISC>0</dBaseGravISC>
+					<dLiqISCItem>0</dLiqISCItem>
+				</gCamISC>
+				<!-- Grupo de rastreo de la mercaderia -->
+				<gRasMerc> <!-- Opcional -->
+					<dNumLote>1</dNumLote>
+					<dVencMerc>2018-06-01</dVencMerc>
+					<dNSerie>0</dNSerie>
+				</gRasMerc>
+
+			</gCamItem>
+			<gCamItem>
+				<dCodInt>1252125</dCodInt>
+				<!--<dParAranc></dParAranc> -->
+				<!--<dNCM></dNCM> -->
+				<!--<dDncpG></dDncpG> -->
+				<!--<dDncpE></dDncpE> -->
+				<!--<dGtin></dGtin> -->
+				<!--<dGtinPq></dGtinPq> -->
+				<dDesProSer>Desodorante Aerosol NNNN Primavera</dDesProSer>
+				<cUniMed>001</cUniMed>
+				<dDesUniMed>UNIDAD</dDesUniMed>
+				<dCantProSer>2</dCantProSer>
+				<cPaisOrig>MAR</cPaisOrig>
+				<dDesPaisOrig>MARRUECO</dDesPaisOrig>
+				<dInfItem>Fragancia Primavera</dInfItem>
+				<!-- Campos que desriben los precios, descuentos y valor total por item -->
+				<gValorItem>
+					<dPUniProSer>15000</dPUniProSer>
+					<dDescItem>0</dDescItem>
+					<dPorcDesIt>0</dPorcDesIt>
+					<dTotOpeItem>30000</dTotOpeItem>
+				</gValorItem>
+				<!-- Campos que desriben el IVA de la operacion -->
+				<gCamIVA>
+					<iAfecIVA>1</iAfecIVA>
+					<dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+					<dPropIVA>10</dPropIVA>
+					<dTasaIVA>0</dTasaIVA>
+					<dBasGravIVA>27273.00</dBasGravIVA>
+					<dLiqIVAItem>2727.00</dLiqIVAItem>
+				</gCamIVA>
+				<!-- Campos que desriben el ISC de la operacion -->
+				<!--<gCamISC> <cCatISC></cCatISC> <dDesCatISC></dDesCatISC> <cTasaISC></cTasaISC> 
+					<dBaseGravISC></dBaseGravISC> <dLiqISCItem></dLiqISCItem> </gCamISC> -->
+				<!-- Campos complementarios comerciales de uso especifico -->
+				<!--<gCamEsp> -->
+				<!-- Grupo de rastreo de la mercaderia -->
+				<!--<gRasMerc> <dNumLote></dNumLote> <dVencMerc></dVencMerc> <dNSerie></dNSerie> 
+					</gRasMerc> -->
+				<!-- Sector automovilistico - Vehiculos Nuevos -->
+				<!--<gVehNuevo> <iTipOpVN></iTipOpVN> <dDesTipOpVN></dDesTipOpVN> <dChasis></dChasis> 
+					<dColor></dColor> <dPotencia></dPotencia> <dCapMot></dCapMot> <dPNet></dPNet> 
+					<dPBruto></dPBruto> <iTipCom></iTipCom> <dDesTipCom></dDesTipCom> <dNroMotor></dNroMotor> 
+					<dCapTracc></dCapTracc> <dAnoFab></dAnoFab> <cTipVeh><cTipVeh> <dCapac></dCapac> 
+					</gVehNuevo> -->
+				<!-- Sector energia electrica -->
+				<!--<gGrupEner> <dNroMed></dNroMed> <dActiv></dActiv> <dCateg></dCateg> 
+					<dLecAnt></dLecAnt> <dLecAct></dLecAct> <dConKwh></dConKwh> </gGrupEner> -->
+				<!-- Sector de seguros -->
+				<!--<gGrupSeg> <dCodEmpSeg></dCodEmpSeg> <dPoliza></dPoliza> <dVigencial></dVigencial> 
+					<dNumPoliza></dNumPoliza> </gGrupSeg> -->
+				<!-- Sector de supermercados -->
+				<!--<gGrupSup> <dNomCaj></dNomCaj> <dEfectivo></dEfectivo> <dVuelto></dVuelto> 
+					<dDonac></dDonac> <dDesDonac></dDesDonac> </gGrupSup> -->
+				<!-- Grupo de datos adicionales de uso comercial -->
+				<!--<gGrupAdi> <dCiclo></dCiclo> <dPerDesde></dPerDesde> <dPerHasta></dPerHasta> 
+					<dFecVenc></dFecVenc> <dContrato></dContrato> </gGrupAdi> </gCamEsp> -->
+			</gCamItem>
+			<!-- Campos complementarios comerciales de uso especifico -->
+			<!-- Opcional -->
+			<gCamEsp>
+
+				<!-- Sector automovilistico - Vehiculos Nuevos -->
+				<!--<gVehNuevo> <iTipOpVN></iTipOpVN> <dDesTipOpVN></dDesTipOpVN> <dChasis></dChasis> 
+					<dColor></dColor> <dPotencia></dPotencia> <dCapMot></dCapMot> <dPNet></dPNet> 
+					<dPBruto></dPBruto> <iTipCom></iTipCom> <dDesTipCom></dDesTipCom> <dNroMotor></dNroMotor> 
+					<dCapTracc></dCapTracc> <dAnoFab></dAnoFab> <cTipVeh><cTipVeh> <dCapac></dCapac> 
+					</gVehNuevo> -->
+				<!-- Sector energia electrica -->
+				<!--<gGrupEner> <dNroMed></dNroMed> <dActiv></dActiv> <dCateg></dCateg> 
+					<dLecAnt></dLecAnt> <dLecAct></dLecAct> <dConKwh></dConKwh> </gGrupEner> -->
+				<!-- Sector de seguros -->
+				<!--<gGrupSeg> <dCodEmpSeg></dCodEmpSeg> <dPoliza></dPoliza> <dVigencial></dVigencial> 
+					<dNumPoliza></dNumPoliza> </gGrupSeg> -->
+				<!-- Sector de supermercados -->
+				<!--<gGrupSup> <dNomCaj></dNomCaj> <dEfectivo></dEfectivo> <dVuelto></dVuelto> 
+					<dDonac></dDonac> <dDesDonac></dDesDonac> </gGrupSup> -->
+				<!-- Grupo de datos adicionales de uso comercial -->
+				<gGrupAdi> <!-- Opcional -->
+					<dCiclo>ABC123</dCiclo>
+					<dFecIniC>2018-06-01</dFecIniC>
+					<dFecFinC>2018-06-01</dFecFinC>
+					<dVencPag>2018-06-01</dVencPag>
+					<dContrato>1c</dContrato>
+				</gGrupAdi>
+			</gCamEsp>
+			<!-- Campos que describen el transporte de mercaderias Obligatorio si 
+				C002 = 2, 3 o 7 Opcional si C002 = 1 -->
+			<gTransp>
+				<iTipTrans>2</iTipTrans>
+				<dDesTipTrans>Tercero</dDesTipTrans>
+				<iModTrans>3</iModTrans>
+				<dDesModTrans>Aéreo</dDesModTrans>
+				<iRespFlete>1</iRespFlete>
+				<cCondNeg>CFR</cCondNeg>
+				<dNuManif>M1</dNuManif>
+				<dNuDespImp>D123123123123123</dNuDespImp>
+				<dIniTras>2018-05-01</dIniTras>
+				<dFinTras>2018-05-01</dFinTras>
+				<cPaisDest>EGY</cPaisDest>
+				<dDesPaisDest></dDesPaisDest>
+
+				<!-- Campos que identifican el local de salida de las mercaderias Obligatorio 
+					si C002 = 2 o 7 Opcional si C002 = 1 -->
+				<gCamSal>
+					<dDirLocSal>A</dDirLocSal>
+					<dNumCasSal>1</dNumCasSal>
+					<dComp1Sal>a</dComp1Sal>
+					<dComp2Sal>A</dComp2Sal>
+					<cDepSal>3</cDepSal>
+					<dDesDepSal>SAN PEDRO</dDesDepSal>
+					<cDisSal>11</cDisSal>
+					<dDesDisSal>ANTEQUERA</dDesDisSal>
+					<cCiuSal>175</cCiuSal>
+					<dDesCiuSal>COL. ANTEQUERA</dDesCiuSal>
+					<dTelSal>01234568</dTelSal>
+				</gCamSal>
+				<!-- Campos que identifican el local de entrega de las mercaderias Obligatorio 
+					si C002 = 7, Opcional sino -->
+				<gCamEnt>
+					<dDirLocEnt>adir</dDirLocEnt>
+					<dNumCasEnt>1</dNumCasEnt>
+					<dComp1Ent>nd</dComp1Ent>
+					<dComp2Ent>nd</dComp2Ent>
+					<cDepEnt>3</cDepEnt>
+					<dDesDepEnt>SAN PEDRO</dDesDepEnt>
+					<cDisEnt>11</cDisEnt>
+					<dDesDisEnt>ANTEQUERA</dDesDisEnt>
+					<cCiuEnt>174</cCiuEnt>
+					<dDesCiuEnt>ANTEQUERA</dDesCiuEnt>
+					<dTelEnt>12345688</dTelEnt>
+				</gCamEnt>
+				<!-- Campos que identifican el vehiculo de traslado de mercaderias Obligatorio 
+					si C002 = 7, Opcional sino -->
+				<gVehTras>
+					<dTiVehTras>Terrestre</dTiVehTras>
+					<dMarVeh>AAA</dMarVeh>
+					<dNroIDVeh>1A</dNroIDVeh>
+					<dAdicVeh>DA1</dAdicVeh>
+					<dNroVuelo>AA3456</dNroVuelo>
+				</gVehTras>
+				<!-- Campos que identifican al transportista Obligatorio si C002 = 7, 
+					Opcional sino -->
+				<gCamTrans>
+					<iNatTrans>1</iNatTrans>
+					<dNomTrans>NN12</dNomTrans>
+					<dRucTrans>1234567A</dRucTrans>
+					<dDVTrans>1</dDVTrans>
+					<iTipIDTrans>1</iTipIDTrans>
+					<dDTipIDTrans>Cédula paraguaya</dDTipIDTrans>
+					<dNumIDTrans>1</dNumIDTrans>
+					<cNacTrans>IOT</cNacTrans>
+					<dDesNacTrans>1AAAADSAFD</dDesNacTrans>
+					<dNumIDChof>1234567</dNumIDChof>
+					<dNomChof>NOMBRE NN</dNomChof>
+				</gCamTrans>
+			</gTransp>
+		</gDtipDE>
+
+		<!-- Campos de subtotales y totales. Obligatorio si C002 ≠ 3 o 7 -->
+		<gTotSub>
+			<dSubExe>1234567891.12345678</dSubExe>
+			<dSubExo>123.12</dSubExo>
+			<dSub5>0.00000001</dSub5>
+			<dSub10>300000</dSub10>
+			<!--<dSubISC></dSubISC> -->
+			<dTotOpe>330000.00</dTotOpe>
+			<dTotDesc>30000</dTotDesc>
+			<dPorcDescTotal>10</dPorcDescTotal>
+			<dDescTotal>33000</dDescTotal>
+			<dAnticipo>0</dAnticipo>
+			<dRedon>00</dRedon>
+			<dTotGralOpe>300000.00</dTotGralOpe>
+			<!--<dIVA5>0</dIVA5> -->
+			<dIVA10>27272.00</dIVA10>
+			<dTotIVA>27272</dTotIVA>
+			<!--<dBaseGrav5></dBaseGrav5> -->
+			<dBaseGrav10>272728</dBaseGrav10>
+			<dTBasGraIVA>272728</dTBasGraIVA>
+			<!--<dLTotISC></dLTotISC> -->
+			<!-- dBaseGravISC: Obligatorio si E609 ≠ PYG (contado) Obligatorio si 
+				E645 ≠ PYG (crédito) Corresponde al cálculo aritmético F013 * E611 (contado) 
+				F013 * E647 (crédito) -->
+			<dTBasGravISC>100</dTBasGravISC>
+			<dTotalGs>300000.00</dTotalGs>
+			<dTotCom>300000.00</dTotCom>
+			<dComi>10.00000001</dComi>
+			<dIVAComi>0.000001</dIVAComi>
+		</gTotSub>
+		<!-- Campos complementarios comerciales de uso general -->
+		<gCamGen>
+			<dOrdCompra>H</dOrdCompra>
+			<dOrdVta>1</dOrdVta>
+			<dAsiento>a</dAsiento>
+		</gCamGen>
+		<!-- Campos que identifican al documento asociado y al comprobante impreso 
+			en contingencia CIC Obligatorio si C002 = 5, 6 y 8, Opcional sino -->
+		<gCamDEAsoc>
+			<iTipDocAso>1</iTipDocAso>
+			<dDesTipDocAso>Electrónico</dDesTipDocAso>
+			<dCdCDERef>018544440B4081001001452822017012515873260988</dCdCDERef>
+			<dNTimDI>12345678</dNTimDI>
+			<dEstDocAso>123</dEstDocAso>
+			<dPExpDocAso>123</dPExpDocAso>
+			<dNumDocAso>1234567</dNumDocAso>
+			<iTipoDocAso>5</iTipoDocAso>
+			<dDTipoDocAso>Comprobante de retención</dDTipoDocAso>
+			<dFecEmiDI>2018-05-01</dFecEmiDI>
+			<dNumComRet>A12345678912345</dNumComRet>
+			<dNumResCF>L15123456789412</dNumResCF>
+		</gCamDEAsoc>
+	</DE>
+</rDE>

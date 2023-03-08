@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><rDE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.sifen.gov.py/si FE_v130.xsd"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>nCk6CdydL7/LBiCXr1nWlUIeLSF79PidboqTKv42jmA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+JWivT77s6tDWpDWkkKED3lrrGAg6yjtAPEAjGWOz9mKhaGGdv+evg9nJOWrSd1w+C3XnW8BSIWUw
+TAaxjUiWxwDRer2iIXPBFbyyP1rFrBfhd4BSKnfM3f2ilb4VCPNdCGKwGBUfcPR1a5v8oxbGcSxL
+nipLnSHtZr3WFHFQjQZ++MW3vqTV/mQ+6B+2NOIM355/eZ2zYRK19aAWFm5iKFsaKXqDuQ6Xe+5Q
+Ef0frrHb8elCL3YdJRcqtpHcOBxvvwa1TkESW/Gofj2UpswUXKMbb86BB2z7K8xsJqv1bW/2fcx0
+hCyxKDTt3nYeAZnw4MT7CYUaZQyLsYPHM7dt7Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+mis2aymqX4kI0ANVhs9NH5++FowS8J5aoZDOGRy7Tt4vLsEheWxW4SBqkxnzos0U0zf5tPLz/ApG
+DTxWCCdJHXXxumh2S0lhffoPvLQKC8ZRc7YdVNhTNoUZe0fIlGfC8HPE/uhbz7lu2c6IKqAJk3ln
+NZFp1DEBOIfr/fq8AcqGXivKwtYHzKwNgJDNYCOctvNPwkRAzAwjFAXwqSPRfX73J+L/UU+hUm2/
+mj5LOBjmcdl8gxVm/KCq56hpjinfc6oyFqz1ZFHvNNUZLfn6q+tOPm0EkMfwS3TlhW3/q0rEiCdB
+kOHq6mHaOy/sXmv4HLqA+E3dondehnfYBx1XEQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDkTCCAnmgAwIBAgIENJ/PQDANBgkqhkiG9w0BAQsFADB5MQswCQYDVQQGEwJweTEQMA4GA1UE
+CBMHQ2VudHJhbDESMBAGA1UEBwwJQXN1bmNpwqJuMRMwEQYDVQQKEwpEZXNhcnJvbGxvMQ4wDAYD
+VQQLEwVTaWZlbjEfMB0GA1UEAxMWTWluaXN0ZXJpbyBkZSBIYWNpZW5kYTAeFw0xODA2MjUxNDU2
+MjBaFw0xODA5MjMxNDU2MjBaMHkxCzAJBgNVBAYTAnB5MRAwDgYDVQQIEwdDZW50cmFsMRIwEAYD
+VQQHDAlBc3VuY2nCom4xEzARBgNVBAoTCkRlc2Fycm9sbG8xDjAMBgNVBAsTBVNpZmVuMR8wHQYD
+VQQDExZNaW5pc3RlcmlvIGRlIEhhY2llbmRhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAmis2aymqX4kI0ANVhs9NH5++FowS8J5aoZDOGRy7Tt4vLsEheWxW4SBqkxnzos0U0zf5tPLz
+/ApGDTxWCCdJHXXxumh2S0lhffoPvLQKC8ZRc7YdVNhTNoUZe0fIlGfC8HPE/uhbz7lu2c6IKqAJ
+k3lnNZFp1DEBOIfr/fq8AcqGXivKwtYHzKwNgJDNYCOctvNPwkRAzAwjFAXwqSPRfX73J+L/UU+h
+Um2/mj5LOBjmcdl8gxVm/KCq56hpjinfc6oyFqz1ZFHvNNUZLfn6q+tOPm0EkMfwS3TlhW3/q0rE
+iCdBkOHq6mHaOy/sXmv4HLqA+E3dondehnfYBx1XEQIDAQABoyEwHzAdBgNVHQ4EFgQUBKdupi4d
+M5D9GAZuehWLgfD7IQgwDQYJKoZIhvcNAQELBQADggEBAD3ujaLf3Q6zdz0iBApAb1W9YTaFOz5i
++LDkajPjR0hovNdvdlM6ZBF0W+Exvhy40bwde55Qzv3dMT+/HDfHGX0aUAHTocLuJqd/0dJ17/ny
+mWlAMlIw6Hyw/FwHle3BTGn5QLFHUU8UoT7Z0XbWz7NZE809I9OoBrrh9W6nCJeWfeSfDnd3hK8b
+2W/mWhkvkQ99xC/6rQxr/7yR3qc1ugBfHLGn8QrtyQpKnMdKUvvbsPnOeG+ii+IkV+jj8A6P3qQo
+V2YkJ4MeXRc2GeRLCjDp4oVfLH5kNEkwpppKYL44IXfCEei0jGPfc4IrdAP5UkfLqw9XZB17ozGm
+LRXx/Lw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <DE> 
+    <dVerFor>100</dVerFor>
+    <dIDE>DE01444444017001001001452822017012515873260988</dIDE>
+        <gCOpeDE> <!-- Campos de la operacion del DE -->
+        <iAmbDE>1</iAmbDE>
+        <iModVal>1</iModVal>
+        <iTiemValPos>48</iTiemValPos>
+        <iTipEmi>1</iTipEmi>
+        <dDesTipEmi>NORMAL</dDesTipEmi>
+        <iCodSe>587326098</iCodSe>
+        <iIndPres>1</iIndPres>
+        <dDesIndPres>Operacion Presencial</dDesIndPres>
+        <iTipTra>1</iTipTra>
+        <dDesTiTran>Venta de Mercaderia</dDesTiTran>
+        <dInfoEmi>AGRADECEMOS SU PREFERENCIA</dInfoEmi>
+    </gCOpeDE>
+        <gDTim> <!-- Datos de timbrado -->
+        <iTiDE>01</iTiDE>
+        <dDesTiDE>Factura Electronica (B2B)</dDesTiDE>
+        <dNumTim>12000127</dNumTim>
+        <dEst>001</dEst>
+        <dPunExp>001</dPunExp>
+        <dNumDoc>0000001</dNumDoc>
+        <dFeIniT>2018-05-16</dFeIniT>
+        <dFeFinT>2020-05-31</dFeFinT>
+        </gDTim>
+        <gCamOC>  <!-- Datos de la operacion comercial -->
+        <gDaGOC> <!-- Datos Generales del DE -->
+                  <!-- para el ejemplo Omitimos el campo fEmiCIC por tratarse, el impuesto afectado es solo IVA -->
+                  <!-- Se utiliza formato UTC -->
+                <fEmiDE>2017-01-25T09:35:17-04:00</fEmiDE> 
+                <iTimp>1</iTimp>
+                <dDesTimp>IVA</dDesTimp> 
+            </gDaGOC>
+        <gEmis> <!-- Datos del Emisor -->
+                <dRucEm>84444401</dRucEm>
+                <dDVerEmi>7</dDVerEmi>
+                <iTipCont>2</iTipCont>
+                   <!--<dDesCont>Persona Jurídica</dDesCont> -->
+                <dNomEmi>Empresa X</dNomEmi>
+                <dNomFanEmi>Emisor Electronico</dNomFanEmi>
+                <dDirEmi>Gral. Diaz esq 14 de mayo</dDirEmi>
+                <dNumCas>1428</dNumCas>
+                <cCiuEmi>00001</cCiuEmi>
+                <dDesCiuEmi>Asuncion</dDesCiuEmi> 
+                <cDisEmi>00001</cDisEmi>
+                <dDesDisEmi>Asuncion</dDesDisEmi> 
+                <cDepEmi>00001</cDepEmi>
+                <dDesDepEmi>Capital</dDesDepEmi>
+                <dTelEmi>0214177507</dTelEmi>
+                <dEmailE>pmaciel@set.gov.py</dEmailE>
+                <dDenSuc>Sucursal1</dDenSuc>
+                <cActEco>A10100</cActEco>
+                <dDesActEco>VTa.al por menor de  productos diversos:alimentos, bebidas y tabaco entre otros- (AUTOSERVICIO)</dDesActEco> 
+            </gEmis>
+            <gDatRec>  <!-- Datos del receptor -->
+                <iNatRec>1</iNatRec>
+                    <!--<dDesNatRe>contribuyente</dDesNatRe>-->
+                <iTiOpe>1</iTiOpe>
+                    <!--<dDesTiope>B2B</dDesTiope>-->
+                  <!-- la Tabla internacional de paises tiene solo dos caracteres -->
+                <cPaisRec>PRY</cPaisRec>
+                <!-- El campo dDesPaiRe sera obligatorio cuando el Pais no sea PY -->
+                <dDesPaiRe>Paraguay</dDesPaiRe>
+                <dRucRec>88899990</dRucRec>
+                <dVerRec>4</dVerRec>
+                <iTiContRec>2</iTiContRec>
+                
+                
+                
+                    <!--<dDtiContRec>Persona Juridica</dDtiContRec>-->
+                <dNomRec>Empresa Y</dNomRec>
+                <dNomFanRec>Receptor Electronico</dNomFanRec>
+                <dTelRec>0214177507</dTelRec>
+                <dEmailRec>receptorE@gmail.com</dEmailRec>
+            </gDatRec>
+        </gCamOC>
+        <gDtipDe> <!-- Datos del tipo de documento -->
+            <gCamFE> <!-- Descripcion de la operacion -->
+                <iCondOpe>1</iCondOpe>
+                <dDCondOpe>Contado</dDCondOpe>
+                
+                <gForPagCon> <!-- Campos de Forma de pago -->
+                    <iTiPago>01</iTiPago>
+                    <dDesTiPag>Efectivo</dDesTiPag>
+                        <!-- Valor de pago informar sin puntuacion de miles  -->
+                    <dMonTiPag>3240000</dMonTiPag>
+                </gForPagCon>
+                
+            </gCamFE>
+            <gDatMon> <!-- Moneda -->
+                <iMonOpe>PYG</iMonOpe>
+                <dDmonOpe>Guarani</dDmonOpe>
+            </gDatMon>
+            <gCdesIOp> <!-- Datos de Productos (detalle de linea 1) -->
+                <dCodInt>7582400</dCodInt>
+                <dCodGtin>7702011013859</dCodGtin>
+                <dDesProSer>Paquete CHOCMELOS bombones</dDesProSer>
+                <cUnMed>001</cUnMed>
+                <dDesUnMed>UNITARIO</dDesUnMed>
+                <dCantProSer>10.00</dCantProSer>
+                <gCvalorItem> <!-- precio del producto -->
+                    <dPUniProSer>30000.00</dPUniProSer>
+                    <dDescItem>3000.00</dDescItem>
+                    <dVtotVtait>270000.00</dVtotVtait>
+                </gCvalorItem>
+                <gCIVAope>
+                    <iAfecIVA>1</iAfecIVA>
+                    <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+                    <iPropIVA>1</iPropIVA>
+                    <dDesPropIVA>100</dDesPropIVA>
+                    <dTasaIVA>10</dTasaIVA>
+                    <dBasGravIVA>245455.00</dBasGravIVA>
+                    <dLiqIVAItem>24545.00</dLiqIVAItem>
+                </gCIVAope>
+            </gCdesIOp>
+            <gCdesIOp><!-- Datos de Productos (detalle de linea 2) -->
+                <dCodInt>1252125</dCodInt>
+                <dCodGtin>7793253002152</dCodGtin>
+                <dDesProSer>Desodorante Aerosol POET Primavera</dDesProSer>
+                <cUnMed>UN</cUnMed>
+                <dDesUnMed>UNIDAD</dDesUnMed>
+                <dCantProSer>2.00</dCantProSer>
+                
+                <dIintItem>Fragancia Primavera</dIintItem>
+                
+                <gCvalorItem> <!-- precio del producto -->
+                    <dPUniProSer>15000.00</dPUniProSer>
+                        <!-- Item sin descuento (esto es solo un comentario-->
+                    <dDescItem>0.00</dDescItem>
+                    <dVtotVtait>30000.00</dVtotVtait>
+                </gCvalorItem>
+                <gCIVAope>
+                    <iAfecIVA>1</iAfecIVA>
+                    <dDesAfecIVA>Gravado IVA</dDesAfecIVA>
+                    <iPropIVA>1</iPropIVA>
+                    <dDesPropIVA>100</dDesPropIVA>
+                    
+                    <dTasaIVA>10</dTasaIVA>
+                    <dBasGravIVA>27273.00</dBasGravIVA>
+                    <dLiqIVAItem>2727.00</dLiqIVAItem>
+                </gCIVAope>
+            </gCdesIOp>
+        </gDtipDe>
+        <gTotSub>
+        <!-- Para este ejemplo no se utilizan los sub totales de excentos-->
+        <!--<dSubVExe>0.00</dSubVExe>-->
+           <!--   <dSubVExo>0.00</dSubVExo>-->
+        <!-- Para este ejemplo no se utilizan los sub totales de IVA al 5%-->
+        <!--<sSubVIva5>0.00</sSubVIva5>-->
+        <dSubVIva10>300000</dSubVIva10>
+         <!-- Para este ejemplo no se utilizan los sub totales de ISC-->
+        <!--<sSubVISC>0.00</sSubVISC>-->
+        <dTotVtasDesc>330000.00</dTotVtasDesc>
+        <dTotDesc>30000</dTotDesc>
+        <!-- Para el ejemplo no aplica el descuento por redondeo-->
+        <dCRed>00</dCRed>
+        
+        <dTotPDR>300000.00</dTotPDR>
+        <!--<dLIva5>0.00</dLIva5>-->
+        <dLIva10>27272.00</dLIva10>
+        <dLtotIva>27272</dLtotIva>
+        <!--<dBaseGrav5Tot>0.00</dBaseGrav5Tot>-->
+        <dBaseGrav10Tot>272728</dBaseGrav10Tot>
+        <dTbasGraIVA>272728</dTbasGraIVA>
+        <!--<dLtotIsc>0.00</dLtotIsc>-->
+        <!--<dBaseImpISC>100</dBaseImpISC>-->
+    </gTotSub>
+    </DE>
+    <gCamFuFD>
+        <dCarQR>1212212121212122222222121212122101212121212121201ASD4444440170010010SFSG0145282GJFH2501201HJHGJK71587322IYUI6094</dCarQR>
+        <dInfAdic>esta información es adicionall</dInfAdic>
+    </gCamFuFD>
+</rDE>
